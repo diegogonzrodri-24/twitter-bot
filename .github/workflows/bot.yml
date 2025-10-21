@@ -4,7 +4,6 @@ on:
   schedule:
     - cron: "0 15 * * *"    # 9:00 AM hora México
     - cron: "0 0 * * *"     # 6:00 PM hora México
-    - cron: "45 13 * * *"    # 1:40 AM hora México
   workflow_dispatch:          # permite ejecutarlo manualmente desde GitHub
 
 jobs:
