@@ -1,23 +1,20 @@
 import tweepy, os
 
-# Autenticación con OAuth 2.0 User Context
+# 🔑 Claves desde GitHub Secrets
 API_KEY = os.getenv("API_KEY")
 API_SECRET = os.getenv("API_SECRET")
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 ACCESS_SECRET = os.getenv("ACCESS_SECRET")
 
-client = tweepy.Client(
-    consumer_key=API_KEY,
-    consumer_secret=API_SECRET,
-    access_token=ACCESS_TOKEN,
-    access_token_secret=ACCESS_SECRET
-)
+# 🔐 Autenticación OAuth 1.0a
+auth = tweepy.OAuth1UserHandler(API_KEY, API_SECRET, ACCESS_TOKEN, ACCESS_SECRET)
+api = tweepy.API(auth)
 
-# Leer frases
+# 📄 Leer frases
 with open("frases.txt", "r", encoding="utf-8") as f:
     frases = [line.strip() for line in f if line.strip()]
 
-# Leer índice actual
+# 📌 Archivo para guardar índice actual
 INDEX_FILE = "index.txt"
 if os.path.exists(INDEX_FILE):
     with open(INDEX_FILE, "r") as f:
@@ -25,15 +22,17 @@ if os.path.exists(INDEX_FILE):
 else:
     index = 0
 
-# Publicar la frase correspondiente
+# 🔹 Publicar frase correspondiente
 if index < len(frases):
     frase = frases[index]
-    client.create_tweet(text=frase)
+    api.update_status(frase)
     print(f"Publicado: {frase}")
-    
+
     # Incrementar índice para la próxima ejecución
     index += 1
     with open(INDEX_FILE, "w") as f:
         f.write(str(index))
 else:
     print("Todas las frases ya fueron publicadas.")
+    # 🔄 Para reiniciar el ciclo, descomenta la siguiente línea
+    # with open(INDEX_FILE, "w") as f: f.write("0")
