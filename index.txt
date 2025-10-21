@@ -1,3 +1,1 @@
-index = 0
-with open(INDEX_FILE, "w") as f:
-    f.write(str(index))
+0
