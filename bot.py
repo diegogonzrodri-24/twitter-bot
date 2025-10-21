@@ -1,4 +1,5 @@
 import tweepy, random, time
+import os
 
 # Conexión a la API (usa variables de entorno)
 API_KEY = os.getenv("API_KEY")
@@ -18,4 +19,5 @@ with open("frases.txt", "r", encoding="utf-8") as f:
 frase = random.choice(frases)
 api.update_status(frase)
 print(f"Publicado: {frase}")
+
 
