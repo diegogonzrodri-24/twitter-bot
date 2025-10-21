@@ -2,9 +2,10 @@ name: Twitter Bot
 
 on:
   schedule:
-    - cron: "0 15 * * *"   # 9:00 AM hora México
-    - cron: "0 0 * * *"    # 6:00 PM hora México
-  workflow_dispatch:         # permite ejecutarlo manualmente desde GitHub
+    - cron: "0 15 * * *"    # 9:00 AM hora México
+    - cron: "0 0 * * *"     # 6:00 PM hora México
+    - cron: "40 7 * * *"    # 1:40 AM hora México
+  workflow_dispatch:          # permite ejecutarlo manualmente desde GitHub
 
 jobs:
   run:
