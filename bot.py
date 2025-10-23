@@ -1,4 +1,4 @@
-import tweepy, os
+import tweepy, os, subprocess
 
 # 🔑 Claves desde GitHub Secrets
 BEARER_TOKEN = os.getenv("BEARER_TOKEN")
@@ -39,6 +39,15 @@ if index < len(frases):
         index += 1
         with open(INDEX_FILE, "w") as f:
             f.write(str(index))
+
+        # 🧩 Guardar el nuevo índice en el repositorio
+        subprocess.run(["git", "config", "user.name", "github-actions"])
+        subprocess.run(["git", "config", "user.email", "github-actions@github.com"])
+        subprocess.run(["git", "add", INDEX_FILE])
+        subprocess.run(["git", "commit", "-m", f"🔁 Actualizado índice a {index}"])
+        subprocess.run(["git", "push"])
+        print("📤 Índice actualizado en el repositorio.")
+
     except Exception as e:
         print(f"❌ Error al publicar: {e}")
 else:
