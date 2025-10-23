@@ -2,17 +2,21 @@ name: Twitter Bot
 
 on:
   schedule:
-    - cron: "0 15 * * *"  # 9 AM MX
-    - cron: "0 0 * * *"   # 6 PM MX
+    - cron: "0 15 * * *"   # 9 AM MX
+    - cron: "0 0 * * *"    # 6 PM MX
+  workflow_dispatch:
 
-  workflow_dispatch:          # permite ejecutarlo manualmente desde GitHub
+permissions:
+  contents: write  # 👈 necesario para hacer commit
 
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - name: Clonar repo
-        uses: actions/checkout@v3
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Instalar dependencias
         run: pip install tweepy
