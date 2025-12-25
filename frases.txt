@@ -115,3 +115,33 @@ Libro donde fueron extraidas estas frases: “Así habló Zaratustra” de Fried
 “La dignidad no consiste en poseer honores, sino en merecerlos.”
 “Todo acto humano tiende hacia algún bien.”
 Libro: “Ética a Nicómaco” de Aristóteles, un clásico sobre cómo construir carácter, disciplina y una vida guiada por la virtud.
+“No todo lo que enfrentas puede ser cambiado, pero nada puede cambiarse hasta que se enfrenta.”
+“El mundo se rompe para todos, y después, algunos se hacen fuertes en los lugares rotos.”
+“La verdadera prueba de carácter es cómo te comportas cuando nadie te ve.”
+“La vida de cada hombre termina de la misma manera; solo los detalles de cómo vivió y cómo murió lo distinguen.”
+“El valor no es la ausencia de miedo, sino la decisión de que algo es más importante que el miedo.”
+“El hombre no está hecho para la derrota.”
+“Hay que vivir para contarla.”
+“El secreto de la sabiduría, del poder y del conocimiento es la humildad.”
+“La felicidad en la gente inteligente es la cosa más rara que conozco.”
+“El coraje es gracia bajo presión.”
+“El mundo es un buen lugar por el que vale la pena luchar.”
+“No pidas explicaciones a la vida; vive, y ella te responderá.”
+“Las cosas verdaderas no se dicen a gritos.”
+“El dolor es inevitable, el sufrimiento es opcional.”
+Libro recomendado: “El viejo y el mar” y otros ensayos de Ernest Hemingway, obras que exploran la dignidad, la resistencia y la fortaleza interior frente a la adversidad.
+“El hombre está condenado a ser libre.”
+“No es lo que te ocurre, sino lo que haces con ello.”
+“La libertad es lo que haces con lo que te han hecho.”
+“El infierno son los otros.”
+“La vida comienza al otro lado de la desesperación.”
+“El compromiso es un acto, no una palabra.”
+“No elegir también es una elección.”
+“El hombre se define por sus actos.”
+“La existencia precede a la esencia.”
+“El silencio también es una forma de respuesta.”
+“El miedo no te quita oportunidades; te quita decisiones.”
+“El valor de una persona se mide por sus elecciones.”
+“No hay realidad excepto en la acción.”
+“Somos responsables de todo lo que hacemos.”
+Libro recomendado: “El existencialismo es un humanismo” y “El ser y la nada” de Jean-Paul Sartre, textos fundamentales sobre responsabilidad, libertad y construcción del sentido personal.
