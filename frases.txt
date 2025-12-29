@@ -145,3 +145,33 @@ Libro recomendado: “El viejo y el mar” y otros ensayos de Ernest Hemingway, 
 “No hay realidad excepto en la acción.”
 “Somos responsables de todo lo que hacemos.”
 Libro recomendado: “El existencialismo es un humanismo” y “El ser y la nada” de Jean-Paul Sartre, textos fundamentales sobre responsabilidad, libertad y construcción del sentido personal.
+“Al hombre se le puede arrebatar todo salvo una cosa: la libertad de elegir su actitud.”
+“Cuando ya no podemos cambiar una situación, tenemos el desafío de cambiarnos a nosotros mismos.”
+“La vida nunca se vuelve insoportable por las circunstancias, sino por la falta de sentido.”
+“El sufrimiento deja de ser sufrimiento cuando encuentra un propósito.”
+“No preguntes qué esperas de la vida; pregúntate qué espera la vida de ti.”
+“La felicidad no se persigue, se da como resultado.”
+“Vivir significa asumir la responsabilidad de responder a los problemas.”
+“El sentido de la vida difiere de un hombre a otro y de un momento a otro.”
+“La fuerza interior puede sostener incluso en las peores condiciones.”
+“El vacío existencial nace cuando se pierde el propósito.”
+“El amor es la meta última y más alta a la que puede aspirar el ser humano.”
+“Quien tiene un para qué, soporta casi cualquier cómo.”
+“La conciencia es el órgano del sentido.”
+“La vida exige decisiones, incluso en el dolor.”
+Libro recomendado: “El hombre en busca de sentido” de Viktor Frankl, una obra profunda sobre resiliencia, propósito y fortaleza interior frente a la adversidad extrema.
+“Conócete a ti mismo y conocerás al enemigo.”
+“La victoria se gana antes de librar la batalla.”
+“El supremo arte de la guerra es vencer sin luchar.”
+“Quien es prudente y espera a un enemigo imprudente, vencerá.”
+“La rapidez es la esencia de la guerra.”
+“Las oportunidades se multiplican cuando se aprovechan.”
+“El líder sabio evita la guerra innecesaria.”
+“La estrategia sin táctica es el camino más lento hacia la victoria.”
+“El desorden proviene del orden mal entendido.”
+“El que se adapta al cambio prevalece.”
+“No hay ventaja permanente excepto la flexibilidad.”
+“Un ejército victorioso gana primero y lucha después.”
+“La disciplina convierte a muchos en uno solo.”
+“El caos puede ser una herramienta para el sabio.”
+Libro recomendado: “El arte de la guerra” de Sun Tzu, un clásico atemporal sobre estrategia, autocontrol y toma inteligente de decisiones aplicables a la vida diaria.
